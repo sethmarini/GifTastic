@@ -1,0 +1,45 @@
+body {
+	height:  100%;
+}
+
+.jumbotron {
+	background-color: #20315A;
+	color: white;
+}
+.panel {
+	margin: 1em;
+	height: 100%;
+}
+
+input, span {
+	width: 50%;
+
+}
+
+h1 {
+font-family: ;
+}
+
+#searchButton {
+
+	width: 70px;
+	margin-top: 1em;
+	border-radius: 20px;
+	color: 
+}
+
+#inputId {
+	border-radius: 5px;
+}
+
+#gifBox {
+	border: 0px solid;
+	border-color: white;
+
+}
+
+.btn {
+	margin: 0.5em;
+	background-color: #457A7C;
+	color: white;
+}
