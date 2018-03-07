@@ -78,7 +78,7 @@ $(document).on("click", ".animal", function() {
 
 			var newP = $("<p>");
 
-			newP.html(rating);
+			newP.html("Rating: "+rating.toUpperCase());
 
 			newDiv.append(newImg).append(newP);
 
