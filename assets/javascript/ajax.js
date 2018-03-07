@@ -72,7 +72,7 @@ $(document).on("click", ".animal", function() {
 			newImg.attr("gif-still", urlStill);
 			newImg.attr("gif-active", url);
 			newImg.attr("gif-choice", "still");
-			newImg.addClass(".gifClick");
+			newImg.addClass("gifClick");
 			
 
 
@@ -88,7 +88,7 @@ $(document).on("click", ".animal", function() {
 		console.log(results);
 	});
 
-
+});
 // image status
 	$(document).on("click", ".gifClick", function() {
 
@@ -107,8 +107,4 @@ $(document).on("click", ".animal", function() {
 		}
 
 	});
-
-
-});
-
 });
