@@ -45,7 +45,7 @@ $(document).on("click", ".animal", function() {
 	
 	var key = "2orTtjnU84tc7bM0NzkX1DE8B0UfWJKg";
 
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=" + key +"&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=" + key +"&limit=10";
 
 	$.ajax({
 
